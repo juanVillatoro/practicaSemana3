@@ -13,8 +13,6 @@
         <h4>{{x}}, {{y}}</h4>
         <b>{{message}}</b>
 
-        <input type="text" v-on:keydown>
-
     </div>
 </template>
 <script>
@@ -42,9 +40,6 @@
             mouseOut(){
                 this.message = "OUT"
             },
-            key(event){
-                console.log
-            }
         },
         computed:{
             styleE(){
